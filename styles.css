@@ -1,0 +1,41 @@
+/*Inställningar för hela sidan*/
+body {
+    background-color: black;
+}
+
+/*Design av header-bilden*/
+#headerImg {
+    width: 100%;
+}
+
+/*Design av menyn*/
+#headMenu {
+    background-color: #be8d61;
+    text-align: center;
+}
+
+#headMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+#headMenu ul li{
+    padding: 15px;
+}
+
+#headMenu ul a {
+    color: black;
+    text-decoration: none;
+}
+
+/**/
+
+
+
+
+
