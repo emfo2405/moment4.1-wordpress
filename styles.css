@@ -1,6 +1,7 @@
 /*Inställningar för hela sidan*/
 body {
     background-color: black;
+    font-family: "Poppins", sans-serif;
 }
 
 /*Design av header-bilden*/
@@ -18,9 +19,13 @@ body {
 #headerDiv h1 {
     color: white;
     position: absolute;
-    top: 40%;
+    top: 34%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "WindSong", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 550%
 }
 
 #headerDiv p {
@@ -84,6 +89,45 @@ text-underline-offset: 10px;
 #headButtons a:hover {
     background-color: rgb(255, 255, 255, 0.3);
 }
+
+/*Design av text om företag på startsida*/
+#about {
+    background-color: rgba(214, 143, 77, 0.5);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+#about h2 {
+    text-align: center;
+    font-family: "WindSong", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 400%;
+    color:black;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+#about p {
+    width: 400px;
+    margin: 0 auto;
+    line-height: 130%;
+}
+
+#about img {
+    width: 50%;
+    margin: 25px;
+    opacity: 70%;
+}
+
+#aboutText {
+    margin: 30px;
+    padding: 45px;
+    background-color: rgba(255, 250, 243, 0.45);
+}
+
+
 
 
 /**/
