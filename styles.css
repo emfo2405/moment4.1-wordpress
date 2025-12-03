@@ -62,6 +62,7 @@ body {
     color: black;
     text-decoration: none;
     padding: 10px;
+    font-size: 100%;
 }
 
 #headMenu ul a:hover {
@@ -92,7 +93,7 @@ text-underline-offset: 10px;
 
 /*Design av text om företag på startsida*/
 #about {
-    background-color: rgba(214, 143, 77, 0.5);
+    background-color: rgba(214, 143, 77, 0.3);
     padding: 10px;
     margin: 20px;
     display: flex;
@@ -124,8 +125,39 @@ text-underline-offset: 10px;
 #aboutText {
     margin: 30px;
     padding: 45px;
-    background-color: rgba(255, 250, 243, 0.45);
+    background-color: rgba(255, 250, 243, 0.55);
 }
+
+/*Presentation av anställda*/
+#presentation img{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+#presentation {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+}
+
+#presentation div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#employees h2{
+    text-align: center;
+    color: white;
+    font-family: "WindSong", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 300%;
+}
+
 
 
 
