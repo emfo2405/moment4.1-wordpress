@@ -217,6 +217,13 @@ text-underline-offset: 10px;
     cursor: pointer;
 }
 
+/*Design av footer*/
+footer {
+    background-color: rgb(136, 159, 173);
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px;
+}
 
 
 /**/
