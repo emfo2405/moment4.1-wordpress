@@ -234,6 +234,34 @@ footer {
     padding: 5px;
 }
 
+/*Design av nyhetsflöde*/
+#newsList {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.news {
+    background-color: blanchedalmond;
+    display: flex;
+    padding: 10px;
+}
+
+.news img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.newsText {
+    border-left: 2px solid rgb(88, 51, 17);
+    padding: 10px;
+}
+
+.newsText h2 {
+    margin-top: -10px;
+    font-weight: 300;
+}
 
 /**/
 
