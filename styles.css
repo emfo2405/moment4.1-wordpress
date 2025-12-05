@@ -251,7 +251,7 @@ footer {
 }
 
 .news img {
-    width: 150px;
+    width: 170px;
     height: auto;
     margin: 10px;
 }
@@ -272,7 +272,17 @@ footer {
     color: rgb(88, 51, 17);
 }
 
-/**/
+/*Design av produkter*/
+#products img {
+    width: 170px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#products {
+    color: white;
+    margin: 10px;
+}
 
 
 
