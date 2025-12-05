@@ -245,6 +245,9 @@ footer {
     background-color: blanchedalmond;
     display: flex;
     padding: 10px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 .news img {
@@ -261,6 +264,12 @@ footer {
 .newsText h2 {
     margin-top: -10px;
     font-weight: 300;
+}
+
+.newsText .newsDate {
+    text-align: right;
+    padding-top: 10px;
+    color: rgb(88, 51, 17);
 }
 
 /**/
