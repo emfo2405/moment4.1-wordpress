@@ -32,13 +32,14 @@ body {
     font-family: "WindSong", cursive;
     font-weight: 500;
     font-style: normal;
-    font-size: 550%;
+    font-size: 400%;
     margin: 0;
 }
 
 #headerDiv p {
-    color: white;
+color: white;
 margin: 0;
+margin-top: -40px;
 }
 
 /*Design av menyn*/
@@ -49,6 +50,7 @@ margin: 0;
     left: 0;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 #headMenu ul {
@@ -84,12 +86,20 @@ text-underline-offset: 10px;
     background-color: rgb(255, 255, 255, 0.3);
 }
 
+#headButtons {
+    margin: 20px;
+}
+
 /*Design av text om företag på startsida*/
 #about {
     background-color: rgba(214, 143, 77, 0.3);
     padding: 10px;
-    margin: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
 }
 
 #about h2 {
@@ -104,18 +114,18 @@ text-underline-offset: 10px;
 }
 
 #about p {
-    width: 400px;
-    margin: 0 auto;
     line-height: 130%;
 }
 
 #about img {
-    width: 50%;
+    width: 500px;
     margin: 25px;
     opacity: 70%;
+    height: auto;
 }
 
 #aboutText {
+    width: 400px;
     margin: 30px;
     padding: 45px;
     background-color: rgba(255, 250, 243, 0.55);
@@ -133,6 +143,11 @@ text-underline-offset: 10px;
     gap: 20px;
     justify-content: center;
     color: white;
+    flex-wrap: wrap;
+}
+
+.employee {
+    width: 200px;
 }
 
 #presentation div {
