@@ -300,6 +300,10 @@ footer {
     display: none;
 }
 
+    #menuLinks {
+                display: block;
+    }
+
 
 /*Anpassningar till olika skärmstorlekar*/
 @media (min-width: 1800px) {
@@ -378,6 +382,12 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     
+}
+
+@media (min-width: 801px) {
+    #menuLinks {
+        display: block !important;
+    }
 }
 
 @media (max-width: 800px) {
