@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     <title>ArtMarket | Produkter</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
@@ -18,19 +19,91 @@
         <h1>Våra produkter</h1>
 </div>
     <nav id="headMenu">
-        <ul>
+                <div id="mobileMenu">
+            <button id="menuButton">Meny<span id="menuIcon" class="material-symbols-outlined">menu</span></button>
+        </div>
+        
+        <div id="menuLinks">
+                   <ul>
             <li><a href="/index.html">Startsida</a></li>
             <li><a href="/news.html">Nyheter</a></li>
             <li><a href="/products.html">Produkter</a></li>
         </ul>
+        </div>
     </nav>
     </div>
 
     <div id="products">
         <div class="product">
             <img src="images/art1.jpg">
-            <p>Produkttitel</p>
-            <p>Pris</p>
+            <p>Porträtt</p>
+            <p>350 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art2.jpg">
+            <p>Fågel</p>
+            <p>200 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art3.jpg">
+            <p>Borg</p>
+            <p>400 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art4.jpg">
+            <p>Liten by</p>
+            <p>300 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art5.jpg">
+            <p>Berg</p>
+            <p>300 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art6.jpg">
+            <p>Två flickor</p>
+            <p>200 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art7.jpg">
+            <p>Cykel</p>
+            <p>350 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art8.jpg">
+            <p>Abstrakt</p>
+            <p>400 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art9.jpg">
+            <p>Blommor</p>
+            <p>250 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art10.jpg">
+            <p>Dykning</p>
+            <p>350 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art11.jpg">
+            <p>Fåglar</p>
+            <p>200 kr</p>
+        </div>
+
+                <div class="product">
+            <img src="images/art12.jpg">
+            <p>Färger</p>
+            <p>350 kr</p>
         </div>
     </div>
 
@@ -40,5 +113,7 @@
     <footer>
         <p>ArtMarket <br> est 2023</p>
     </footer>
+
+        <script src="/js/menuFunction.js"></script>
 </body>
 </html>

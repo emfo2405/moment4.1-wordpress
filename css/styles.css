@@ -140,14 +140,14 @@ text-underline-offset: 10px;
 
 #presentation {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     color: white;
     flex-wrap: wrap;
 }
 
 .employee {
-    width: 200px;
+    width: 280px;
 }
 
 #presentation div {
@@ -277,11 +277,195 @@ footer {
     width: 170px;
     padding: 10px;
     border: 2px solid white;
+
 }
 
 #products {
     color: white;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Dölj menyikon*/
+#mobileMenu {
+    display: none;
+}
+
+
+/*Anpassningar till olika skärmstorlekar*/
+@media (min-width: 1800px) {
+
+    #headerDiv h1 {
+        font-size: 700%;
+    }
+
+    #headMenu {
+        font-size: 130%;
+    }
+
+    #about img {
+        width: 690px;
+    }
+
+    #aboutText {
+        width: 600px;
+        height: 780px;
+        font-size: 120%;
+    }
+
+    .employee {
+        width: 350px;
+    }
+
+    #contactForm form {
+        width: 900px;
+    }
+
+    .news {
+        width: 900px;
+    }
+
+    #products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #products img{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    #about {
+        flex-direction: column;
+    }
+
+    #about img {
+        width: 490px;
+        margin-top: -60px;
+    }
+
+    #aboutText {
+        width: 400px;
+    }
+
+    .employee {
+        width: 250px;
+        margin: 0 auto;
+        
+    }
+
+    #presentation {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+    }
+
+    .news {
+        width: 600px;
+    }
+
+    #products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media (max-width: 800px) {
+
+    .news img {
+        width: 150px;
+        height: 120px;
+    }
+
+    .news {
+        width: 400px;
+    }
+
+    #headerDiv h1 {
+        font-size: 300%;
+        margin-top: 20px;
+    }
+
+    #mobileMenu {
+        display: block;
+    }
+
+    #menuIcon {
+        vertical-align: middle;
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+
+    #headMenu {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    #headMenu button {
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        margin-right: 15px;
+    }
+
+    #headMenu button:hover {
+        cursor: pointer;
+        background-color: rgb(245, 243, 243, 0.3);
+    }
+
+    #headMenu ul{
+        flex-direction: column;
+        background-color: rgb(209, 169, 118);
+        text-align: center;
+        padding: 20px;
+    }
+
+    #menuLinks {
+                display: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #about img {
+        width: 390px;
+    }
+
+    #aboutText {
+        width: 300px;
+    }
+
+    #employees {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #contactForm {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #contactForm form {
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    #products img {
+        width: 130px;
+    }
 }
 
 

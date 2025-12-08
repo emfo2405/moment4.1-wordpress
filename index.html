@@ -4,26 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>ArtMarket | Startsida</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
 </head>
 
 <body>
 
 
     <div id="headerDiv">
-        <img src="/images/header-Webshop.jpg" alt="Konstverk på berg och skog">
+        <img src="/images/header-artMarket.jpg" alt="Konstverk på berg och skog">
         
     <nav id="headMenu">
-        <ul>
+
+                <div id="mobileMenu">
+            <button id="menuButton">Meny<span id="menuIcon" class="material-symbols-outlined">menu</span></button>
+        </div>
+        
+        <div id="menuLinks">
+                   <ul>
             <li><a href="/index.html">Startsida</a></li>
             <li><a href="/news.html">Nyheter</a></li>
             <li><a href="/products.html">Produkter</a></li>
         </ul>
-    </nav>
+        </div>
+ 
+
+        
+    </nav>   
 
     <div id="headerText">
     <h1>ArtMarket</h1>
@@ -37,7 +49,7 @@
     </div>
 
     <div id="about">
-        <img src="/images/aboutImage.jpg" alt="Konstverk">
+        
 
         <div id="aboutText">
         <h2>Om oss</h2>
@@ -49,6 +61,8 @@
         vi det enkelt att förvandla dina väggar till något mer än bara bakgrund, till ett uttryck. <br>
         <br> Utforska vår kollektion och låt dig inspireras. Konst har aldrig varit mer tillgänglig.</p>
         </div>
+
+<img src="/images/aboutImage.jpg" alt="Konstverk">
     </div>
 
     <div id="employees">
@@ -104,5 +118,7 @@
     <footer>
         <p>ArtMarket <br> est 2023</p>
     </footer>
+
+    <script src="/js/menuFunction.js"></script>
 </body>
 </html>
